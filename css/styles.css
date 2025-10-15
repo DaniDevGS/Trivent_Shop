@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: aqua; */
+    color: black;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li{
+    gap: 2.5rem;
+}
+
+.container{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer{
+    background-color: yellowgreen;
+    border: 1px red solid;
+    padding: 1rem 2rem;
+    text-align: center;
+}
