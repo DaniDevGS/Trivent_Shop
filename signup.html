@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./img/TRV.png" type="image/png">
+    <script src="https://kit.fontawesome.com/daf8c554e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/css_prueba/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Tienda</a></li>
+                    <li><a href="">Hogar</a></li>
+                    <li><a href="./carrito.html"><i class="fa-solid fa-basket-shopping"></i> <span class="numerito">0</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="main-login">
+                <form  method="POST">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="uGNp4ZD2pOz7dnNbQDWomhc95FCfOO7gb8deRpTBjLx28sX9hiWavjaFM43WbK2a">
+                    <p>
+                        <label for="id_username">Username:</label>
+                        <input type="text" name="username" maxlength="150" autocapitalize="none" autocomplete="username" autofocus required aria-describedby="id_username_helptext" id="id_username">
+                            <span class="helptext" id="id_username_helptext">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</span>
+                    </p>
+
+                    <p>
+                        <label for="id_password1">Password:</label>
+                        <input type="password" name="password1" autocomplete="new-password" required aria-describedby="id_password1_helptext" id="id_password1">
+                            <span class="helptext" id="id_password1_helptext"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></span>
+                    </p>
+
+                    <p>
+                        <label for="id_password2">Password confirmation:</label>
+                        <input type="password" name="password2" autocomplete="new-password" required aria-describedby="id_password2_helptext" id="id_password2">
+                            <span class="helptext" id="id_password2_helptext">Enter the same password as before, for verification.</spa>
+                    </p>
+                    <button>
+                        Signup
+                    </button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-media">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+            <div class="footer-logo">
+                <img src="./img/TRV.avif" alt="">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
